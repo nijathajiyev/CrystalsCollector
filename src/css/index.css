@@ -1,0 +1,78 @@
+body {
+    background-image: url(../img/background_img.jpg);
+}
+
+.imgs {
+    width: 270px;
+    background-color: #D2691E;
+    color: #fff;
+}
+
+.prg {
+    width: 449px;
+    height: 400px;
+    padding-top: 20px;
+    padding-left: 5px;
+    margin-left: 15px;
+    background-color: #FFE4C4;
+    color: #008000;
+}
+
+h6 {
+    padding-bottom: 20px;
+}
+
+#compArea {
+    background-color: #3CB371;
+    width: 200px;
+    height: 100px;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 40px;
+    padding-left: 5px;
+}
+
+#winLost {
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #00FFFF;
+    width: 70px;
+}
+
+#lostOrWin{
+    padding-bottom: 5px;
+}
+
+#lost{
+    padding-top: 5px;
+}
+
+#imgDiv{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#imgDiv img{
+    width: 80px;
+    height: 80px;
+}
+
+#totalName{
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: #008B8B;
+    color: #fff;
+    width: 200px;
+    padding-left: 5px;
+}
+
+#userTotal{
+    color: #fff;
+    width: 200px;
+    height: 100px;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 40px;
+    padding-left: 5px;
+    background-color: #008B8B;
+}

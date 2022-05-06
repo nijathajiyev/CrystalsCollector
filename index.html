@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/index.css">
+    <title>Cristal Game2</title>
+
+<body>
+
+    <h2 class="m-3 p-1 imgs">Crystals Collector!</h2>
+    <div class="prg">
+        <h6>You will be given a random number at the start of the game. </h6>
+        <h6>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+            total
+            score.</h6>
+        <h6>You win the game by matching your total score to random number, you lose the game if your total score goes
+            above the random number.</h6>
+        <h6>The value of each crystal is hidden from you until you click on it.</h6>
+        <h6>Each time when the game starts, the game will change the values of each crystal</h6>
+    </div>
+
+    <div class="d-flex">
+        <div id="compArea">
+            0
+        </div>
+
+        <div class="pl-1 pt-2" id="winLost">
+            <div id="lostOrWin"></div>
+            <div id="win">Win: 0</div>
+            <div id="lost">Lost: 0</div>
+        </div>
+    </div>
+
+    <div id="imgDiv">
+        <img id="imgBlue" src="./src/img/blue.png" alt="">
+        <img id="imgGreen" src="./src/img/green.png" alt="">
+        <img id="imgRed" src="./src/img/red.png" alt="">
+        <img id="imgYellow" src="./src/img/yellow.png" alt="">
+    </div>
+
+    <div id="totalName">
+        Your total score is :
+    </div>
+
+    <div id="userTotal">
+        0
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+    </script>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
